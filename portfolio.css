@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.main {
+    width: 100%;
+    background: url(background3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo {
+    width: 160px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: -2%;
+}
+ul {
+    margin-top: -4%;
+}
+ul li {
+    display: inline-block;
+    padding: 10px 16px;
+    list-style: none;
+}
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ul li a:hover {
+    color: rgba(218, 72, 72, 1);
+}
+.info {
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1 {
+    font-size: 65px;
+    color: rgba(218, 72, 72, 1);
+}
+.info h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span {
+    color: rgba(218, 72, 72, 1);
+}
+.info a {
+    text-decoration: none;
+    color: antiquewhite;
+    background: rgba(218, 72, 72, 1);
+    margin: 26px 0;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.info a:hover {
+    background: black;
+}
+.image {
+    width: 55%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+
+}
+.image img {
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    bottom: 0rem;
+    border-radius: 50%;
+}
+.icons {
+    text-decoration: none;
+}
+.icons img {
+    margin-left: 7%;
+    margin-right: -60px;
+    font-size: 40px;
+}
+.icon img:hover {
+    color: black;
+}
+.work {
+    display: flex;
+    padding: 70px;
+    justify-content: space-between;
+}
+.work img a b {
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+}
+table tr {
+    text-align: center;
+}
+.main2 {
+    width: 100%;
+    background: url(background3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
