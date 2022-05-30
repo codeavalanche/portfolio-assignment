@@ -122,3 +122,18 @@ table tr {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+.fa-facebook {
+    color: rgba(218, 72, 72, 1);
+    padding: 20px;
+    margin-left: 60px;
+}
+.fa-linkedin {
+    color: rgba(218, 72, 72, 1);
+    padding: 20px;
+    margin-left: 10px;
+}
+.fa-twitter {
+    color: rgba(218, 72, 72, 1);
+    padding: 20px;
+    margin-right: 20px;
+}
